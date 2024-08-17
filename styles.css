@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-style: solid;
+    background-color:rgba(104, 13, 33, 0.575);
+}
+body{
+    text-align: center;
+    background-color: rgb(36, 157, 205);
+    padding: 20px;
+}
+ul{
+    display: inline;
+    text-align: left;
+    align-items: center;
+    margin-right: 10px;
+}
+.facts{
+    display: flex;
+    margin-bottom: 20px;
+}
+img{
+    max-height: 200px;
+    margin-left: 10px;
+    width:200px 
+    
+}
+
+nav {
+    background-color:black;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  
+  }
+
+
+

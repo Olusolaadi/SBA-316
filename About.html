@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title id="demo">About Me</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <p id="hi">Click anywhere in the document to display "You are welcome to this page."</p>
+    <p id="demo"></p>
+    
+    <div id="app">
+      <h1 class="about">I am Olusola Adi.<br>
+        My pronoun is She/her</h1>
+    </div>
+    <button onclick="myInfo()">Click it</button>
+    <nav id="top-menu">
+      <a href="#">ABOUT</a>
+      <a href="https://perscholas.org/">EDUCATION</a>
+      <a id="mycareer" href="https://perscholas.org/courses/software-engineer/software-engineer-newark/">CAREER</a>
+    </nav>
+    <button onclick="myCareer()"></button>
+    <button onclick="myCourse()">Courses</button><br><br>
+    
+      <!--Add the <nav> element below-->
+      <nav id="sub-menu"></nav>
+    <section>
+        <div class="facts">
+          <form>
+            <legend><h1>Three facts about me.</h1></legend>
+            <label for="checkbox"><h3>I love classical music</h3>
+            <input type="checkbox" name="selectBy" id="checkbox" onmouseover="myclick()"/>
+            </label>
+            <label for="checkbox2"><h3>I love to travel to new places.</h3>
+            <input type="checkbox" name="selectBy" id="checkbox2" />
+            </label>
+            <label for="checkbox3"><h3>I love to try new foods.</h3>
+            <input type="checkbox" name="selectBy" id="checkbox3" />
+            </label>
+          </form>
+      <ul>
+        <h2>Fun Fact ideas</h2>
+        <li>UNITED KINGDOM AND CANADA</li>
+        <li>Accomplishments</li>
+        <li>SINGING</li>
+        <li>I USED TO LIKE FOOTBALL BUT I FELL IN LOVE WITH MUSIC.</li>
+        <li>I DON'T HAVE ANY FAVORITE SPORTS TEAM BUT I LOVE ANDRE RIEU ORCHESTRA TEAM</li>
+      </ul>
+      <button onclick="funFacts()">Fun Facts</button>
+    </div>
+    </section>
+    <h2>Questions</h2>
+  <section>
+      <div>
+        <h2 onclick="vacation(this)">If you could vacation anywhere, where would it be?</h2>
+      </div>
+      <div>
+        <h2 onclick="genre(this)">Favorite Genre of Music?</h2>
+      </div>
+     
+        <h2>From scale of 1-5, where do you think your coding levels are?<br>5 being the highest</h2>
+        <form action="#">
+          <input id="numb">
+          <button type="button" onclick="number()">Submit</button>
+          <p id="no"></p>
+          </form>
+      </div>
+    </section>
+    <button id="re" onclick="relationship()">Remove</button>
+  
+      <ul id="myList">
+        <h3>Courses</h3>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ul>
+    <form id="myForm" action="/action_page.php">
+      <select name="cars">
+      <option value="violin">Violin</option>
+      <option value="viola">Viola</option>
+      <option value="cello">Cello</option>
+      <option value="saxophone">Saxophone</option>
+      <option value="clarinet">Clarinet</option>
+      <option value="oboe">Oboe</option>
+      <option value="piano" selected>Piano</option>
+      </select>
+      <input type="submit">
+      </form>
+      
+      <img src="playingpiano.jpg" alt="picture" style="float: center">
+      <p id="width"></p>
+      <p id="height"></p>
+      <p id="location"></p>
+      <p id="date"></p><button onclick="displayDate()" id="myBtn">Date</button>
+      <script src="index.js"></script>
+  </body>
+</html>
